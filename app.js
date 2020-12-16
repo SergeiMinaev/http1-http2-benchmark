@@ -11,7 +11,7 @@ function main() {
     const temp = document.getElementById('t-image');
     let imgBox = temp.content.firstElementChild.cloneNode(true);
     const img = imgBox.getElementsByTagName('img')[0];
-    img.src = './img.png?' + Math.random();
+    img.src = './img-small.jpg?' + Math.random();
     app.appendChild(imgBox);
   }
 }
